@@ -84,21 +84,6 @@ void loop() {
   }
 
   // Check for incoming UDP packets
-  /*
-  int packetSize = udp.parsePacket();
-  if (packetSize) {
-    char buffer[255];
-    int n = udp.read(buffer, 255);
-    if (n > 0) {
-      buffer[n] = '\0'; // Null-terminate the string
-      Serial.printf("Received via UDP: %s\n", buffer);
-    } else {
-      Serial.println("Received an empty packet");
-    }
-  }
-  */
-
-  // Check for incoming UDP packets
   
   int packetSize = udp.parsePacket();
   if (packetSize) {
