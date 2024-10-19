@@ -29,3 +29,5 @@ This project demonstrates a communication setup between two ESP32 devices using 
    - The server creates a Wi-Fi access point with the specified SSID and password.
    - It listens for data over Bluetooth and sends the data over UDP to the client.
    - A LED on GPIO 2 will light up when Bluetooth data is received.
+  
+2. This code still need an app(from the Android side) to send and receive the data over bluetooth.
